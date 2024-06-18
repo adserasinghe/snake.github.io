@@ -81,9 +81,6 @@ body {
   font-family: monospace;
 }
 
-.developerDetails a {
-  color: #1b0c21;
-}
 
 @media only screen and (max-width: 768px) {
   /* MOBILE */
@@ -129,4 +126,14 @@ body {
   #onScreenControllers button:active {
     background-color: slategray;
   }
+}
+.developerDetails p {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: medium;
+  color: #ffff;
+}
+.developerDetails a{
+  text-decoration:none;
+  color:#ffff;
+
 }
